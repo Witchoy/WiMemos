@@ -1,0 +1,61 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+/* Welcome message styling */
+p:first-of-type {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Links styling */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Message section styling */
+section {
+    background-color: #e7f3ff;
+    border: 1px solid #bcdff5;
+    padding: 15px;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+section p {
+    margin: 5px 0;
+}
+
+/* Important link styling */
+a[href="delete"] {
+    color: #d9534f;
+    font-weight: bold;
+}
+
+a[href="delete"]:hover {
+    text-decoration: underline;
+}

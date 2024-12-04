@@ -1,0 +1,9 @@
+<html>
+    <head><title>@yield('title')</title></head>
+    <body>
+        @yield('header')
+        @section('content')
+        @show
+        @include('shared/message')
+    </body>
+</html>
